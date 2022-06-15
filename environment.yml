@@ -1,4 +1,4 @@
-name: base
+name: dl_final_env
 channels:
   - pytorch
   - plotly

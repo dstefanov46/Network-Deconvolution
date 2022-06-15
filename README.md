@@ -1,25 +1,25 @@
 ## Deep Learning 21/22: Final Project
 
 This is a repository for the Final Project in the subject Deep Learning 21/22. It contains the code for the procedure 
-*network deconvolution* proposed in the paper [Network Deconvolution](https://arxiv.org/abs/1905.11926), but also 
+*network deconvolution* proposed in the paper [Network Deconvolution](https://arxiv.org/abs/1905.11926), and also 
 partial replication of the experiments performed in that work.
 
 ### Environment
 
-The work was done on a **Windows 10 (x64)** machine, and to re-create the environment in which the project was developed,
+This project was completed on a **Windows 10 (x64)** machine, and to re-create the environment in which the code was developed,
 you need to run:
 ```
 conda env create -f environment.yml
 ```
 The ``environment.yml`` file is part of this repo. And, to start working in the environment, simply run:
 ```
-conda activate environment
+conda activate dl_final_env
 ```
 
 ### Experiments
 
 To replicate our experiments, you need to run the ```main.py``` file. For instance, if you would like to train the
-ResNeXt-29 architecture on the CIFAR-10 with the SGD optimizer, and the remainder of the 
+original ResNeXt-29 architecture (with batch normalization layers) on the CIFAR-10 dataset with the SGD optimizer, and the remainder of the 
 hyperparameter settings as we had them in our experiments, you need to run:
 
 ```angular2html
